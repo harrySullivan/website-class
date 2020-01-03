@@ -1,12 +1,29 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
+  text-align: center;
 }
 
 .bg-light {
   background-color: #fafafa;
 }
 
+.bg-dark {
+  background-color: #424242;
+}
+
 .text-dark {
   color: #424242;
+}
+
+.text-light {
+  color: #fafafa;
+}
+
+.border {
+  border: solid 0.1rem #fafafa;
+}
+
+section.page {
+  min-height: 100vh;
 }
