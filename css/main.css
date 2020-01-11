@@ -28,3 +28,12 @@ section.page {
   min-height: 100vh;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
+.list-item {
+  padding: 0.7rem 2rem;
+  background-color: #fafafa;
+  margin-bottom: 0.8rem;
+}
