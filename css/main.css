@@ -8,6 +8,10 @@ body {
   background-color: #fafafa;
 }
 
+.bg-grey {
+  background-color: #fafafa;
+}
+
 .bg-dark {
   background-color: #424242;
 }
@@ -18,6 +22,14 @@ body {
 
 .text-light {
   color: #fafafa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .border {
@@ -36,4 +48,49 @@ section.page {
   padding: 0.7rem 2rem;
   background-color: #fafafa;
   margin-bottom: 0.8rem;
+}
+
+.message-box {
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  background-color: #424242;
+  color: #f2f2f2;
+  border: 0.1rem solid #f2f2f2;
+  resize: none;
+}
+
+/*button*/
+
+.button {
+  background-color: #424242;
+  border: 0.1rem solid #f2f2f2;
+  color: #f2f2f2;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: .1rem;
+  line-height: 3.8rem;
+  padding: 0 3.0rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #303030;
+  border-color: #ededed;
+  color: #f2f2f2;
+  outline: 0;
+}
+
+.button:focus {
+  background-color: #363636;
+  border-color: #e8e8e8;
+  color: #f2f2f2;
+  outline: 0;
 }
